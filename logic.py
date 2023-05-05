@@ -1,3 +1,6 @@
+from random import randint
+
+
 class Ship:
     def __init__(self, length, tp=1, x=None, y=None):
         self.__length = length
